@@ -9,9 +9,8 @@ export const Navbar = () => {
                 <li>
                     <div className="logo-flex-container">
                         <Link href="/" className="logo-flex-box">
-                            <img alt="logo" className="circle-logo" />
                             <h4 className="oxanium-semibold team-name">
-                                Hello!
+                                Lucas
                             </h4>
                         </Link>
                     </div>

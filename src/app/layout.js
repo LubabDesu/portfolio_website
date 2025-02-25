@@ -22,9 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html>
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
+            <body className={"${fontVariables.barlow.variable"}>
                 <Navbar />
                 {children}
                 <Footer />

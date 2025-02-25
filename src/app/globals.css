@@ -1,22 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@98.8,438&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-    --background: #ffffff;
+    --background: #eae7dd;
     --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
+        --background: #eae7dd;
+        --foreground: black;
     }
 }
 
 body {
     color: var(--foreground);
     background: var(--background);
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-size: xx-large;
+}
+
+h1,
+li {
+    font-family: "Barlow";
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto";
+    font-weight: 400;
 }
