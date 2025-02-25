@@ -5,14 +5,14 @@
 @tailwind utilities;
 
 :root {
-    --background: #eae7dd;
-    --foreground: #171717;
+    --background: #171717;
+    --foreground: #eae7dd;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #eae7dd;
-        --foreground: black;
+        --foreground: #eae7dd;
+        --background: black;
     }
 }
 
@@ -31,7 +31,7 @@ li {
 }
 
 p {
-    font-family: "Roboto";
+    font-family: "Barlow";
     font-weight: 400;
 }
 

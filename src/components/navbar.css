@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+:root {
+    --background: #171717;
+    --foreground: #eae7dd;
+    --navbar-background: #2d2d2d;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --accent-color: #4f46e5;
+}
 .oxanium-semibold {
     font-family: "Oxanium", sans-serif;
     font-optical-sizing: auto;
@@ -19,7 +26,11 @@ nav {
     align-items: center;
     justify-content: center; /* Centers the navigation */
     padding: 10px 20px;
-    background-color: #01293b;
+    background-color: var(--navbar-background);
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    position: relative;
+    z-index: 10;
 }
 
 /* Ensures the nav menu stays centered */
@@ -29,7 +40,7 @@ nav ul {
     list-style: none;
     margin: 0; /* Center-align the navigation */
     padding: 0;
-    background-color: #01293b;
+    background-color: var(--navbar-background);
     gap: 20px; /* Spacing between items */
 }
 
@@ -39,7 +50,6 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none;
     color: white;
     padding: 10px 15px;
     display: block;
@@ -47,9 +57,25 @@ nav ul li a {
 }
 
 /* Ensures hover effects remain */
-nav ul li a .dropdown-content:hover {
+nav ul li a .dropdown-content:hover Link {
+    text-decoration: underline;
     background-color: #ffd31e;
     color: black;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    background-color: var(--accent-color);
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
 }
 
 img {

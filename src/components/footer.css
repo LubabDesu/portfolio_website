@@ -13,18 +13,29 @@
     font-style: normal;
 } */
 
+:root {
+    --background: #171717;
+    --foreground: #eae7dd;
+    --navbar-background: #2d2d2d;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --accent-color: #4f46e5;
+}
+
 /* General Footer Styling */
 footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #01293b;
-    color: #01293b;
+    background-color: var(--navbar-background);
+    color: var(--foreground);
     text-align: center;
-    padding: 20px 0;
+    padding: 2rem 0;
     border-top: 1px solid;
-    gap: 0;
+    box-shadow: 0 -4px 6px var(--shadow-color);
+    position: relative;
+
+    gap: 2rem;
 }
 
 /* Footer Content Box */
@@ -60,6 +71,7 @@ footer {
 
 .footer-social a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* Footer Location Section */
