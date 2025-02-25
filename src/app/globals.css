@@ -34,3 +34,39 @@ p {
     font-family: "Roboto";
     font-weight: 400;
 }
+
+h1 {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header {
+    display: flex;
+}
+/* For button cards in general */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1px;
+    margin: 10%;
+}
+
+.buttonCard {
+    font-weight: bold;
+    width: 320px;
+    height: 320px;
+    padding: 5px;
+    font-size: xx-large;
+    border-radius: 20%;
+    overflow: hidden;
+    background-color: bisque;
+    margin: 5vh;
+}
+
+.buttonCard:hover {
+    cursor: pointer;
+    background-color: aqua;
+    transition: background-color 0.4s ease;
+}
