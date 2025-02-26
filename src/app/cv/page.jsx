@@ -14,7 +14,6 @@ export default function cv() {
                 setIsTimeLineView={setIsTimeLineView}
             />
             {isTimeLineView ? <TimelineResume /> : <PDFResume />}
-            <p> Render CV Below</p>
         </div>
     );
 }
