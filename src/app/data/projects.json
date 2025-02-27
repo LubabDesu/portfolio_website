@@ -1,0 +1,14 @@
+[
+    {
+        "id": "project-1",
+        "title": "Piano reduction using Deep Learning",
+        "description": "Piano reduction!!",
+        "details": "detailed info about piano reduction?"
+    },
+    {
+        "id": "project-2",
+        "title": "Project2",
+        "description": "Project 2 descritpion!",
+        "details": "detailed info about project 2?"
+    }
+]

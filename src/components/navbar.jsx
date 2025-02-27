@@ -36,10 +36,10 @@ export const Navbar = () => {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="/projects" className="blinker-regular">
+                    <Link href="/Overview" className="blinker-regular">
                         Projects
                     </Link>
-                    <ul className="dropdown-content">
+                    {/* <ul className="dropdown-content">
                         <li>
                             <Link href="/Overview" className="blinker-regular">
                                 overview
@@ -60,7 +60,7 @@ export const Navbar = () => {
                                 music
                             </Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li>
                     <Link href="/contact" className="blinker-regular">
