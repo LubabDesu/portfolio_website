@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
-:root {
-    --background: #171717;
-    --foreground: #eae7dd;
-    --navbar-background: #2d2d2d;
-    --shadow-color: rgba(0, 0, 0, 0.2);
-    --accent-color: #4f46e5;
-}
+
 .oxanium-semibold {
     font-family: "Oxanium", sans-serif;
     font-optical-sizing: auto;
@@ -22,6 +16,7 @@
 
 /* General Navigation Styling */
 nav {
+    /* --navbar-background: #c23838; */
     display: flex;
     align-items: center;
     justify-content: center; /* Centers the navigation */
@@ -59,7 +54,6 @@ nav ul li a {
 /* Ensures hover effects remain */
 nav ul li a .dropdown-content:hover Link {
     text-decoration: underline;
-    background-color: #ffd31e;
     color: black;
 }
 
@@ -88,7 +82,7 @@ img {
 .dropdown-content {
     display: block;
     position: absolute; /* Positioned relative to parent */
-    background-color: #ffd31e;
+    background-color: #121212;
     min-width: 160px; /* Minimum width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
     z-index: 1; /* Ensure it appears above other elements */

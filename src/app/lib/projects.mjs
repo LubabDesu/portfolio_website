@@ -12,4 +12,18 @@ export function getAllProjects() {
     return projects;
 }
 
-getAllProjects();
+export function getAllProjectSlugs() {
+    const projects = getAllProjects();
+    return projects.map((project) => {
+        return {
+            params: {
+                slug: project.id,
+            },
+        };
+    });
+}
+
+export function getProjectBySlug(slug) {
+    const projects = getAllProjects();
+    return projects.find((project) => project.id === slug);
+}

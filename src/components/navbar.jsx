@@ -36,7 +36,7 @@ export const Navbar = () => {
                     </ul>
                 </li>
                 <li className="dropdown">
-                    <Link href="/Overview" className="blinker-regular">
+                    <Link href="/projects" className="blinker-regular">
                         Projects
                     </Link>
                     {/* <ul className="dropdown-content">
