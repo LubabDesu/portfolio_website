@@ -16,15 +16,16 @@
 
 /* General Navigation Styling */
 nav {
-    /* --navbar-background: #c23838; */
+    overflow: hidden;
     display: flex;
+    margin: 0;
+    top: 0;
     align-items: center;
     justify-content: center; /* Centers the navigation */
-    padding: 10px 20px;
     background-color: var(--navbar-background);
     padding: 1rem 2rem;
     box-shadow: 0 4px 6px var(--shadow-color);
-    position: relative;
+    position: sticky;
     z-index: 10;
 }
 
