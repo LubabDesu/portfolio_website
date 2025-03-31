@@ -100,13 +100,12 @@ img {
 
 .dropdown-content li a {
     padding: 10px 15px;
-    color: #333;
+    color: #f3f3f3;
     transition: 0.3s ease;
 }
 
 .dropdown-content li a:hover {
-    background-color: #ffd31e; /* Highlight on hover */
-    color: black;
+    background-color: #202020; /* Highlight on hover */
     transition: 0.2s ease;
 }
 

@@ -83,3 +83,11 @@ h1 {
     align-self: center;
     text-align: center;
 }
+
+.contact-form {
+    display: flex;
+    width: 60vh;
+    align-self: center;
+    justify-content: space-evenly;
+    justify-items: center;
+}
