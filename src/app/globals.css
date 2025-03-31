@@ -86,8 +86,19 @@ h1 {
 
 .contact-form {
     display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center it */
+    gap: 10vh;
+}
+
+.contact-group {
+    display: flex;
+    flex-direction: column;
     width: 60vh;
-    align-self: center;
-    justify-content: space-evenly;
-    justify-items: center;
+    margin: 5vh;
+}
+
+button {
+    background-color: var(--foreground);
+    color: var(--background);
 }

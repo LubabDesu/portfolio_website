@@ -16,7 +16,6 @@
 
 /* General Navigation Styling */
 nav {
-    overflow: hidden;
     display: flex;
     margin: 0;
     top: 0;
@@ -86,7 +85,7 @@ img {
     background-color: #121212;
     min-width: 160px; /* Minimum width */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
-    z-index: 1; /* Ensure it appears above other elements */
+    z-index: 0; /* Ensure it appears above other elements */
     padding: 10px 0;
     visibility: hidden;
     opacity: 0;
@@ -106,7 +105,7 @@ img {
 }
 
 .dropdown-content li a:hover {
-    background-color: #202020; /* Highlight on hover */
+    background-color: #1e1e1; /* Highlight on hover */
     transition: 0.2s ease;
 }
 
@@ -115,7 +114,7 @@ img {
     display: block;
     visibility: visible;
     opacity: 1;
-    transition: opacity 0.1 ease;
+    transition: opacity 0.1s ease;
     transform: translateY(0);
 }
 
