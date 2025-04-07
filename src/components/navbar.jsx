@@ -62,12 +62,12 @@ export const Navbar = () => {
                         </li>
                     </ul> */}
                 </li>
-                <li>
+                {/* <li>
                     <Link href="/contact" className="blinker-regular">
                         {" "}
                         contact me{" "}
                     </Link>
-                </li>
+                </li> */}
             </ul>
         </nav>
     );

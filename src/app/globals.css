@@ -102,3 +102,38 @@ button {
     background-color: var(--foreground);
     color: var(--background);
 }
+
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #292929, #000000);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-header {
+    text-decoration: underline;
+    font-size: xx-large;
+    margin: 10vh;
+}
+
+.about-text {
+}
